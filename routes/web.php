@@ -1,4 +1,5 @@
-<?php
+﻿<?php
+\Illuminate\Support\Facades\URL::forceScheme('https');
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProjectController;
@@ -28,4 +29,5 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
 
