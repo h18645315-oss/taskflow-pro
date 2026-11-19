@@ -13,7 +13,7 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script src="https://tailwindcss.com"></script></head>
+    <script src="https://cdn.tailwindcss.com"></script></head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
@@ -34,4 +34,5 @@
         </div>
     </body>
 </html>
+
 
